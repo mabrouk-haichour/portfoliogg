@@ -97,22 +97,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     }
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
-    // {
-    //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire"
-    // },
-    // {
-    //   skillName: "python",
-    //   fontAwesomeClassname: "fab fa-python"
-    // },
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "fab fa-docker"
-    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -143,8 +127,6 @@ const educationInfo = {
     }
   ]
 };
-
-// Your top 3 proficient stacks/tech experience
 
 const techStack = {
   viewSkillBars: false, //Set it to true to show Proficiency Section
