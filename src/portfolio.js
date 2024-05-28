@@ -244,7 +244,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://ganttpro.com/"
+          url: "#"
         }
       ]
     }
