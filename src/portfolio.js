@@ -108,7 +108,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      // logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "September 2017 - April 2019",
       desc: "Participated in the research of XXX and published 3 papers.",
@@ -150,25 +150,33 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Devloper",
+      company: "Ecom",
+      // companylogo: require("./assets/images/logoecom.png"),
+      // date: "June 2018 – Present",
+      desc: "Shop - Cutting-Edge E-Commerce Platform.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Responsive Design: Optimized for all devices including mobile, tablet, and desktop",
+        "User Authentication: Secure login and registration system with JWT-based authentication",
+        "Product Management: Comprehensive admin dashboard for managing products, categories, and inventory",
+        "Performance Optimization: Fast load times and efficient data handling with caching strategies"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full-Stack Developer",
+      company: "Homyz",
+      companylogo: require("./assets/images/realestate.png"),
+      // date: "May 2017 – May 2018",
+      desc: "RealEstateWeb - Innovative Real Estate Platform",
+      descBullets: [
+        "Responsive Design: Adaptable interface for seamless use on mobile, tablet, and desktop devices",
+        "Property Listings: Easy-to-navigate listings with detailed property information and high-quality images",
+        "User Authentication: Secure login and registration for buyers, sellers, and agents",
+        "Appointment Scheduling: Online booking system for property viewings and consultations"
+      ]
     },
     {
       role: "Software Engineer Intern",
@@ -191,29 +199,41 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/logoEcom.webp"),
+      projectName: "Ecomerce",
+      projectDesc: "Shop - Cutting-Edge E-Commerce Platform.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "#"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
+      image: require("./assets/images/realestate.png"),
+      projectName: "Homyz",
+      projectDesc: "RealEstateWeb - Innovative Real Estate Platform",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://realestate-client-black.vercel.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/ily.png"),
+      projectName: "ILY GIRL",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://ily-girl.mikapikazo.info/"
         }
       ]
     }
