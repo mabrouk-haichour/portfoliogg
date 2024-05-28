@@ -236,6 +236,17 @@ const bigProjects = {
           url: "https://ily-girl.mikapikazo.info/"
         }
       ]
+    },
+    {
+      image: require("./assets/images/ily.png"),
+      projectName: "ILY GIRL",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://ily-girl.mikapikazo.info/"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
