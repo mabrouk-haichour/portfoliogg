@@ -229,7 +229,7 @@ const bigProjects = {
     {
       image: require("./assets/images/ily.png"),
       projectName: "ILY GIRL",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "shoping web-site",
       footerLink: [
         {
           name: "Visit Website",
