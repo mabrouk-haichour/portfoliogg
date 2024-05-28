@@ -238,13 +238,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/ily.png"),
-      projectName: "ILY GIRL",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/product-manager.png"),
+      projectName: "ganttpro",
+      projectDesc: "Online Gantt chart maker for project management",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://ily-girl.mikapikazo.info/"
+          url: "https://ganttpro.com/"
         }
       ]
     }
@@ -310,7 +310,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
