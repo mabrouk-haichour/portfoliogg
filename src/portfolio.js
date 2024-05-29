@@ -244,7 +244,40 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "#"
+          url: "https://ganttpro.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/marketru.png"),
+      projectName: "BLIZKO",
+      projectDesc: "Marketplace Platform",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://ekb.blizko.ru/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/marketjap.png"),
+      projectName: "minne",
+      projectDesc: "Marketplace Platform",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://minne.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/edu.png"),
+      projectName: "Skillbox",
+      projectDesc: "Educational Platform",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://skillbox.ru/"
         }
       ]
     }
