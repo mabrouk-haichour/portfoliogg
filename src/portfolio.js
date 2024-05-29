@@ -280,6 +280,17 @@ const bigProjects = {
           url: "https://skillbox.ru/"
         }
       ]
+    },
+    {
+      image: require("./assets/images/sendanywhere.png"),
+      projectName: "Sendanywhere",
+      projectDesc: "File Sharing Platform",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://send-anywhere.com/"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
