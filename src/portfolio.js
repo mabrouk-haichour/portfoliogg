@@ -78,13 +78,22 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
+      skillName: "typescript",
+      fontAwesomeClassname: "fab fa-ts"
+    },
+    {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "nextjs",
+      fontAwesomeClassname: "fab fa-next"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
+
     {
       skillName: "mongodb",
       fontAwesomeClassname: "fas fa-database"
