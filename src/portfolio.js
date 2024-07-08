@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Haichour Mabrouk",
+  username: "Mabrouk Amir",
   title: "Hi, I'm Mabrouk",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Express and some other cool libraries and frameworks."
+    "A passionate Full Stack Web Developer skilled with JavaScript / Reactjs / Nodejs / Express / Typescript / Nextjs and some other libraries and frameworks."
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
